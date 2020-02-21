@@ -1,0 +1,56 @@
+.sidebar {
+  margin-right: 65px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+.nav__list {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 40px;
+    &:last-child {
+        margin-bottom: 0;
+  }
+}
+.nav__link {
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  color: #5972b1;
+  vertical-align: middle;
+  transition: .3s;
+    &:hover{
+      color: #262424;
+      transition: .3s;
+    }
+}
+.nav__link .st0{
+  stroke: #5972b1;
+}
+.nav__svg{
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    left: -40px;
+    top: -2px;
+    transition: 0.3s;
+}
+.nav__link:hover .st0{
+  stroke: #262424;
+}
+.st3{
+  transition: .3s;
+}
+.nav__link:hover .st3{
+  fill: #262424;
+  transition: .3s;
+}
+
+.active{
+  color: #262424;
+}
+.nav__link.active .st0{
+  stroke: #262424;
+}
+.nav__link.active .st3{
+  fill: #262424;
+}

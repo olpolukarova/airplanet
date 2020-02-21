@@ -1,0 +1,24 @@
+.partners{
+    margin-bottom: 40px;
+}
+.partners__title{
+    margin-bottom: 40px;
+}
+.partners__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partners__item{
+    width: 33%;
+    margin-bottom: 60px;
+    filter: grayscale(1);
+    transition: .3s;
+        &:hover{
+            filter: grayscale(0);
+            transition: .3s;
+        }   
+}
+.partners__link{
+    width: 100%;
+}
